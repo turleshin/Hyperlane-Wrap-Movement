@@ -2,33 +2,5 @@
 # These configs will be merged with the warp routes in the configured registry
 # The input here is typically the output of the Hyperlane CLI warp deploy command
 ---
-tokens:
-basesepolia:
-  interchainSecurityModule:
-    modules:
-      - relayer: "0x4B58D63c6Be8BA85Db405d80eEF61B7f0c10D63F"
-        type: trustedRelayerIsm
-      - domains: {}
-        owner: "0x4B58D63c6Be8BA85Db405d80eEF61B7f0c10D63F"
-        type: defaultFallbackRoutingIsm
-    threshold: 1
-    type: staticAggregationIsm
-  isNft: false
-  mailbox: "0xe306C7CebE03cD7BcCD8259E4D34016a0A156b3b"
-  owner: "0x4B58D63c6Be8BA85Db405d80eEF61B7f0c10D63F"
-  type: native
-holesky:
-  interchainSecurityModule:
-    modules:
-      - relayer: "0x4B58D63c6Be8BA85Db405d80eEF61B7f0c10D63F"
-        type: trustedRelayerIsm
-      - domains: {}
-        owner: "0x4B58D63c6Be8BA85Db405d80eEF61B7f0c10D63F"
-        type: defaultFallbackRoutingIsm
-    threshold: 1
-    type: staticAggregationIsm
-  isNft: false
-  mailbox: "0x46f7C5D896bbeC89bE1B19e4485e59b4Be49e9Cc"
-  owner: "0x4B58D63c6Be8BA85Db405d80eEF61B7f0c10D63F"
-  type: native
+tokens: []
 options: {}
